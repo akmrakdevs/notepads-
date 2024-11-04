@@ -1,0 +1,132 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Genesishub | by:PlutoLUA ", "Ocean")
+local Tab1 = Window:NewTab("Genesishub")
+local Section1 = Tab1:NewSection("Genesishub")
+
+local Tab2 = Window:NewTab("setting")
+local Section2 = Tab2:NewSection("Genesishub setting")
+
+Section1:NewButton("1.Pistol", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Pistol"))()
+    print("runting...")
+end)
+
+
+Section1:NewButton("2.Banisher", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Banisher"))()
+    print("runting...")
+end)
+
+Section1:NewButton("3.Karambit", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Karambit"))()
+    print("runting...")
+end)
+
+Section1:NewButton("4.Neptunian V", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+    print("runting...")
+end)
+
+Section1:NewButton("5.Ban Hammer", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
+    print("runting...")
+end)
+
+Section1:NewButton("6.Motorcycle", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Motorcycle"))()
+    print("runting...")
+end)
+
+Section1:NewButton("7.Gale Fighter", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Gale%20Fighter"))()
+    print("runting...")
+end)
+
+Section1:NewButton("8.Star Glitcher", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Star%20Glitcher"))()
+    print("runting...")
+end)
+
+Section1:NewButton("9.Linked Sword", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Linked%20Sword"))()
+    print("runting...")
+end)
+
+Section1:NewButton("10.Neko", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neko"))()
+    print("runting...")
+end)
+
+Section1:NewButton("11.Lightning Cannon", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Lightning%20Cannon"))()
+    print("runting...")
+end)
+
+Section1:NewButton("12.Studio Dummy", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
+    print("runting...")
+end)
+
+Section1:NewButton("13.Good Cop Bad Cop", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Good%20Cop%20Bad%20Cop"))()
+    print("runting...")
+end)
+
+Section1:NewButton("14.Dearsister", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Dearsister"))()
+    print("runting...")
+end)
+
+Section1:NewButton("15.Sadist Genocider", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sadist%20Genocider"))()
+    print("runting...")
+end)
+
+Section1:NewButton("16.AK-47", "script ver:v3.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/AK-47"))()
+    print("runting...")
+end)
+
+Section1:NewButton("17.Goner", "script ver:v3.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))()
+    print("runting...")
+end)
+
+Section1:NewButton("18.Sniper", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sniper"))()
+    print("runting...")
+end)
+
+Section1:NewButton("19.Minigun", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Minigun"))()
+    print("runting...")
+end)
+
+Section1:NewButton("20.Puppet Master", "script ver:v1.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Puppet%20Master"))()
+    print("runting...")
+end)
+
+Section1:NewButton("21.Krystal Dance", "script ver:v2.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Krystal%20Dance"))()
+    print("runting...")
+end)
+
+Section1:NewButton("22.Ban Hammer 2", "script ver:v3.0.0", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
+    print("runting...")
+end)
+
+
+
+Section2:NewButton("rejoin", "Did I accidentally close my Genesis FE? Use this!", function()
+  local player = game.Players.LocalPlayer
+  local currentPlaceId = game.PlaceId
+  game:GetService("TeleportService"):Teleport(currentPlaceId,player)
+  end)
+    print("rejoin...")
+    
+Section2:NewButton("website", "my website", function()
+    setclipboard("https://dzzdrzrx.github.io/PlutoLUA.github.io/") 
+    print("Copied") 
+end)
